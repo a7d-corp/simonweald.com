@@ -1,3 +1,47 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://simonweald.com"
+languageCode = "en-gb"
+title = "Simon Weald"
+theme = "hugo-coder"
+defaultContentLanguage = "en"
+enableEmoji = true
+
+[params]
+    author = "Simon Weald"
+    description = "Simon Weald's personal website"
+    keywords = "personal"
+    info = ["Site Reliability Engineer", "Tinkerer"]
+    avatarURL = "images/avatar.jpg"
+    dateFormat = "January 2, 2006"
+    since = 2019
+    colorScheme = "auto"
+    maxSeeAlsoItems = 5
+
+[[params.social]]
+    name = "Github"
+    icon = "fa-brands fa-github fa-2x"
+    weight = 1
+    url = "https://github.com/glitchcrab/"
+
+[[params.social]]
+    name = "LinkedIn"
+    icon = "fa-brands fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/simonweald/"
+
+[[params.social]]
+    name = "Bluesky"
+    icon = "fa-brands fa-bluesky fa-2x"
+    weight = 3
+    url = "https://bsky.app/profile/glitchcrab.bsky.social"
+
+[[params.social]]
+    name = "Instagram"
+    icon = "fa-brands fa-instagram fa-2x"
+    weight = 4
+    url = "https://www.instagram.com/analbeard/"
+
+[[menu.main]]
+    name = "Blog"
+    weight = 1
+    url  = "https://dickingwithdocker.com"
+    target = "_blank"
