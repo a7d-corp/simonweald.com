@@ -1,4 +1,4 @@
-baseURL = "https://simonweald.com"
+baseURL = "https://simonweald.com/"
 languageCode = "en-gb"
 title = "Simon Weald"
 theme = "hugo-coder"
